@@ -11,3 +11,5 @@ For each function, I made sure to test it in the console and make sure it had th
 - [ ] Game ends if there is a tie
 - [ ] Flashed messages should look cleaner
 - [ ] General tidying, especially HTML
+- [ ] Add animation of piece dropping
+- [ ] Add player names
