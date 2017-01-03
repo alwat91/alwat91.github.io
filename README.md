@@ -13,3 +13,4 @@ For each function, I made sure to test it in the console and make sure it had th
 - [ ] General tidying, especially HTML
 - [ ] Add animation of piece dropping
 - [ ] Add player names
+- [ ] Keep score
