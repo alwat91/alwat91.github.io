@@ -8,21 +8,56 @@
   <!--Import Google Icon Font-->
      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!-- Link materialize css -->
-     <link rel="stylesheet" href="/styles/materialize.css" media="screen,projection">
+     <link rel="stylesheet" href="styles/materialize.css" media="screen,projection">
 </head>
 <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">AW</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <nav class="indigo">
+      <div class="nav-wrapper container">
+        <a id="logo-container" class="brand-logo" href="index.html">AW</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-    <main class= "home">
-      <h1>Alan Watson</h1>
-      <h2>Full-Stack Web Developer Relocating to Washington, D.C.</h2>
-    </main>
+
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center indigo-text">Alan Watson</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">Full-Stack Web Developer Relocating to Washington, D.C.</h5>
+          </div>
+          <br><br>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/cars.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <!-- Porfolio item -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <a href="https://coffee-note.herokuapp.com/"><img class = "responsive-img" src="img/coffee_home.png" alt="Coffee Note">Coffee Note</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Materialize js -->
