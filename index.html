@@ -1,91 +1,146 @@
 <!DOCTYPE html>
 <!-- Adapted from Materialize's Parallax Template, http://materializecss.com/templates/parallax-template/preview.html -->
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Alan Watson</title>
   <!--Import Google Icon Font-->
-     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!-- Link materialize css -->
-     <link rel="stylesheet" href="styles/materialize.css" media="screen,projection">
-     <link rel="stylesheet" href="styles/main.css" media="screen,projection">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Link materialize css -->
+  <link rel="stylesheet" href="styles/materialize.css" media="screen,projection">
+  <link rel="stylesheet" href="styles/main.css" media="screen,projection">
 </head>
+
 <body>
-    <nav class="indigo">
-      <div class="nav-wrapper container">
-        <a id="logo-container" class="brand-logo" href="index.html">AW</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+  <nav class="indigo">
+    <div class="nav-wrapper container">
+      <a id="logo-container" class="brand-logo" href="index.html">AW</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
 
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <br><br>
-          <h1 class="header center indigo-text">Alan Watson</h1>
-          <div class="row center">
-            <h5 class="header col s12 light">Full-Stack Web Developer Relocating to Washington, D.C.</h5>
-          </div>
-          <br><br>
-        </div>
-      </div>
-      <div class="parallax"><img src="img/cars.jpg" alt="Unsplashed background img 1"></div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <div class="container">
-      <div class="section">
-        <div class="row">
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center indigo-text">Alan Watson</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Full-Stack Web Developer Relocating to Washington, D.C.</h5>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/cars.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
 
         <!-- Porfolio item -->
-            <div class="col s12 m4 l3">
-              <div class="icon-block">
-                <a href="https://i-need-a-damn-vacation.herokuapp.com/#/">
-                  <img class = "responsive-img" src="img/travel.png" alt="I Need a Damn Vacation">I Need a Damn Vacation</a>
+        <div class="col s12 m4 l3">
+          <div class="icon-block">
+            <a href="https://i-need-a-damn-vacation.herokuapp.com/#/">
+              <img class="responsive-img" src="img/travel.png" alt="I Need a Damn Vacation">
+              <h5 class="center">I Need a Damn Vacation</h3>
+                </a>
               </div>
             </div>
         <!-- Porfolio item -->
           <div class="col s12 m4 l3">
             <div class="icon-block">
             <a href="https://sommlife.herokuapp.com/#/">
-              <img class = "responsive-img" src="img/wine_home.png" alt="Sommlife">Sommlife</a>
+              <img class = "responsive-img" src="img/wine_home.png" alt="Sommlife">
+              <h5 class="center">Sommlife</h5></a>
           </div>
         </div>
         <!-- Porfolio item -->
-          <div class="col s12 m4 l3">
-            <div class="icon-block">
+        <div class="col s12 m4 l3">
+          <div class="icon-block">
 
             <a href="https://coffee-note.herokuapp.com/">
-              <img class = "responsive-img" src="img/coffee_home.png" alt="Coffee Note">Coffee Note</a>
+              <img class="responsive-img" src="img/coffee_home.png" alt="Coffee Note">
+              <h5 class="center">Coffee Note</h5></a>
           </div>
         </div>
         <!-- Porfolio item -->
-          <div class="col s12 m4 l3">
-            <div class="icon-block">
+        <div class="col s12 m4 l3">
+          <div class="icon-block">
             <a href="https://afternoon-everglades-38921.herokuapp.com/#/">
-              <img class = "responsive-img" src="img/marathoner_home.png" alt="Marathoner">Marathoner</a>
+              <img class="responsive-img" src="img/marathoner_home.png" alt="Marathoner">
+              <h5 class="center">Marathoner</h5></a>
           </div>
-        </div>
         </div>
       </div>
     </div>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <!-- Materialize js -->
-    <script type="text/javascript" src="script/materialize.js"></script>
-    <script src="script/init.js"></script>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/cars.jpg" alt="Unsplashed background">
+    </div>
+  </div>
+  <!-- About Section -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4>About Me</h4>
+          <p class="left-align light">I’m someone who enjoys collaborating to improve. I am constantly strategizing how to improve myself and the world around me. I enjoy being exposed to new ideas and new viewpoints and love working together to achieve a common goal.</p>
+          <p class="left-align light">There are a lot of things that make me tick. One day you might find me obsessing over a cup of coffee in my free time. The next, I might be ordering parts for my car or searching for a new hiking trail. Even though these hobbies don't have much
+            to do with each other, I bring to them the same thing I bring to my professional life: an analytical mindset.</p>
+          <p class="left-align light">My newest chapter in life is about harnessing my love of coding. I've always looked for excuses to apply code to solve a problem or make life easier, and now I've decided to turn that obsession into a career in web development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/cars.jpg" alt="Unsplashed background">
+    </div>
+  </div>
+  <!-- Contact section -->
+    <footer class="page-footer blue">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Contact Info</h5>
+            <ul>
+              <li>
+                <a class="white-text" href="mailto:alwat91@uga.edu">Email</a>
+              </li>
+              <li>
+                <a class="white-text" href="https://github.com/alwat91">GitHub</a>
+              </li>
+              <li>
+                <a class="white-text" href="https://www.linkedin.com/in/alan-watson-12663084">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Materialize js -->
+  <script type="text/javascript" src="script/materialize.js"></script>
+  <script src="script/init.js"></script>
 </body>
+
 </html>
