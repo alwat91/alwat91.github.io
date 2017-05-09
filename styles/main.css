@@ -52,3 +52,11 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.white-text {
+  color: #EEEEEE !important;
+}
+
+.white {
+  background-color: #EEEEEE !important;
+}
